@@ -1,0 +1,15 @@
+.section__subtitle {
+  color: blueviolet !important;
+  font-weight: 400;
+}
+
+.section__subtitle::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -44px;
+  width: 30px;
+  height: 1px;
+  background: #900a97;
+  color: #900a97;
+}
