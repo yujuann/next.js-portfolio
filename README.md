@@ -1,7 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
-
+## Next.js Portfolio 제작중 
+13.Feb ~ 16.Feb 2023 🎶
+<br/>
+<br/>
 First, run the development server:
 
 ```bash
