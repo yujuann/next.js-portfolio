@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "../../styles/Subtitle.module.css";
 
-const SectionSubtitle = () => {
+const SectionSubtitle = (props) => {
   return <h5 className={`${classes.section__subtitle}`}>{props.subtitle}</h5>;
 };
 

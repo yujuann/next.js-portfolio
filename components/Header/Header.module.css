@@ -15,7 +15,7 @@
   margin-bottom: 0;
 }
 .logo h1 span {
-  color: #900a97;
+  color: #80786b;
 }
 
 .nav__menu {
@@ -25,27 +25,28 @@
 }
 
 .nav__menu a {
-  color: white;
+  color: #80786b;
   font-weight: 500;
   font-size: 1rem;
   text-decoration: none;
   cursor: pointer;
 }
 .nav__menu a:hover {
-  color: #900a97;
+  color: #c0c0c0;
 }
 
 .nav__menu a:first-child {
-  color: #900a97;
+  color: #fffff;
 }
 .nav__right p {
-  color: #900a97;
+  color: #c0c0c0;
   margin-left: 20px;
   position: relative;
 }
 .nav__right i {
-  color: #808dad;
+  color: #c0c0c0;
 }
+/* 번호 */
 .nav__right p::before {
   content: "";
   position: absolute;

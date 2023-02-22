@@ -1,5 +1,5 @@
 .section__subtitle {
-  color: blueviolet !important;
+  color: #d9981e !important;
   font-weight: 400;
 }
 
@@ -10,6 +10,6 @@
   left: -44px;
   width: 30px;
   height: 1px;
-  background: #900a97;
-  color: #900a97;
+  background: #d9981e;
+  color: #d9981e;
 }

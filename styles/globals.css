@@ -15,10 +15,10 @@ a {
 
 * {
   box-sizing: border-box;
-  background: #9b8f8f;
+  background: #f8f0e3;
 }
 p {
-  color: #161b28;
+  color: #00000;
   line-height: 30px;
 }
 h1,
@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #fff;
+  color: #00000;
 }
 
 h2 {
@@ -43,14 +43,14 @@ footer {
   border-top: 1px solid #171f38;
 }
 .primary_btn {
-  background: #171f38 !important;
+  background: #bcd1c9 !important;
   padding: 7px 25px !important;
-  border: 1px solid rgb(180, 125, 180) !important;
+  border: 1px solid #d0c8bb !important;
   border-radius: 5px;
 }
 .primary_btn a {
   text-decoration: none;
-  color: #01d293;
+  color: #6b7380;
   background: transparent !important;
 }
 .secondary__btn {
@@ -61,9 +61,9 @@ footer {
 }
 
 .secondary__btn a {
-  color: #01d293 !important;
+  color: #6b7380 !important;
 }
 .primary__btn a:hover,
 .secondary__btn a:hover {
-  color: #01d293;
+  color: #00000;
 }

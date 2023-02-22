@@ -6,18 +6,18 @@
 }
 
 .nav__menu a {
-  color: white;
+  color: #80786b;
   font-weight: 500;
   font-size: 1rem;
   text-decoration: none;
   cursor: pointer;
 }
 .nav__menu a:hover {
-  color: #900a97;
+  color: #808dad;
 }
 
 .nav__menu a:first-child {
-  color: #900a97;
+  color: #80786b;
 }
 
 .footer__creator h6 {
