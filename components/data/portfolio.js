@@ -1,82 +1,46 @@
 const portfolio = [
   {
     id: "01",
-    title: "Transportation Mobile App",
-    img: "/images/portfolio-01.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
+    title: "To Do list React 버전",
+    img: "/images/2.JPG",
+    category: "Site",
+    keyword: ["Web"],
     liveUrl: "#",
   },
 
   {
     id: "02",
-    title: "Workout Tracker App",
-    img: "/images/portfolio-02.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
+    title: "New Season 패션 겨울 홈페이지",
+    img: "/images/yuju.jpeg",
+    category: "Github",
+    keyword: ["Web"],
     liveUrl: "#",
   },
 
   {
     id: "03",
-    title: "Fashion Shopping App",
-    img: "/images/portfolio-03.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
+    title: "넷플릭스 클론 코딩",
+    img: "/images/2.JPG",
+    category: "Github",
+    keyword: ["Web"],
     liveUrl: "#",
   },
 
   {
     id: "04",
-    title: "Fashion Shopping App",
-    img: "/images/portfolio-04.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
+    title: "Todo list Page JavaScript 버전 ",
+    img: "/images/2.JPG",
+    category: "Github",
+    keyword: ["Web"],
     liveUrl: "#",
   },
 
   {
     id: "05",
-    title: "Furniture Shopping App",
-    img: "/images/portfolio-05.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
-  },
-
-  {
-    id: "06",
-    title: "Travel  App",
-    img: "/images/portfolio-06.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
-  },
-
-  {
-    id: "07",
-    title: "Portfolio Website",
-    img: "/images/portfolio-07.png",
-    category: "Web Design",
-    keyword: ["Web", "Web design", "UI-UX"],
-    liveUrl: "#",
-  },
-
-  {
-    id: "08",
-    title: "Restaurant Website",
-    img: "/images/portfolio-08.png",
-    category: "Web Design",
-    keyword: ["Web", "Web design", "UI-UX"],
-    liveUrl: "#",
-  },
-
-  {
-    id: "09",
-    title: "Agency Website",
-    img: "/images/portfolio-09.png",
-    category: "Web Design",
-    keyword: ["Web", "Web design", "UI-UX"],
+    title: "포토폴리오 페이지",
+    img: "/images/2.JPG",
+    category: "Github",
+    keyword: ["Web"],
     liveUrl: "#",
   },
 ];

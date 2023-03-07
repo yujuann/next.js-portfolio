@@ -1,0 +1,9 @@
+.about__icon i {
+  color: #9a1839;
+}
+
+@media only screen and (max-width: 992px) {
+  .about__content h3 {
+    font-size: 1.3rem;
+  }
+}

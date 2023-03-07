@@ -1,11 +1,13 @@
-import React from "react";
-import { Container } from "reactstrap";
-import classes from "./Header.module.css";
-import Link from "next/link";
+import React, { useRef, useEffect, useState } from "react";
 
-const NAV_LINK = [
+import { Container } from "reactstrap";
+import classes from "./header.module.css";
+import Link from "next/link";
+import Data from "../UI/Data";
+
+const NAV__LINK = [
   {
-    path: "./",
+    path: "/",
     display: "Home",
   },
   {
@@ -17,7 +19,7 @@ const NAV_LINK = [
     display: "Services",
   },
   {
-    path: "#Portfolio",
+    path: "#portfolio",
     display: "Portfolio",
   },
   {
@@ -25,36 +27,72 @@ const NAV_LINK = [
     display: "Contact",
   },
 ];
+
 const Header = () => {
+  const headerRef = useRef(null);
+
+  const menuRef = useRef(null);
+
+  const headerFunc = () => {
+    if (
+      document.body.scrollTop > 80 ||
+      document.documentElement.scrollTop > 80
+    ) {
+      headerRef.current.classList.add(`${classes.header__shrink}`);
+    } else {
+      headerRef.current.classList.remove(`${classes.header__shrink}`);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", headerFunc);
+
+    return () => window.removeEventListener("scroll", headerFunc);
+  }, []);
+
+  const toggleMenu = () =>
+    menuRef.current.classList.toggle(`${classes.menu__active}`);
+
   return (
-    <header className={`${classes.header}`}>
+    <header className={`${classes.header}`} ref={headerRef}>
       <Container>
-        {/* ======navigation Logo ======*/}
         <div className={`${classes.nav__wrapper}`}>
+          {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
             <h1>
-              <span>M</span>yuju
+              <span>M</span>uhib
             </h1>
           </div>
-          {/* ======navigation Menu ======*/}
-          <div className={`${classes.navigation}`}>
+
+          {/* ========= nav menu =========== */}
+          <div
+            className={`${classes.navigation}`}
+            ref={menuRef}
+            onClick={toggleMenu}
+          >
             <div className={`${classes.nav__menu}`}>
-              {NAV_LINK.map((item, index) => (
+              {NAV__LINK.map((item, index) => (
                 <Link href={item.path} key={index}>
                   {item.display}
                 </Link>
               ))}
+
               <div className={`${classes.nav__right}`}>
                 <p className=" d-flex align-items-center gap-2 mb-0">
-                  {" "}
-                  <i class="ri-phone-line"></i>+ 821090320363{" "}
+                  {/* <Data /> */}
                 </p>
+                <Data />
               </div>
             </div>
           </div>
+
+          <span className={`${classes.mobile__menu}`}>
+            <i className="ri-menu-line" onClick={toggleMenu}></i>
+          </span>
         </div>
       </Container>
     </header>
   );
 };
+
 export default Header;
