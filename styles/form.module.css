@@ -15,7 +15,11 @@
   font-size: 0.8rem;
   color: #808dad;
 }
-
-.form button {
-  color: #01d293;
+.form__primary_button {
+  border-radius: 5px;
+  color: #9a1839;
+  font-size: 0.8rem;
 }
+/* .form button {
+  color: #01d293;
+} */

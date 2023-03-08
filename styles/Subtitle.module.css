@@ -1,6 +1,6 @@
 .section__subtitle {
-  color: #d9981e !important;
-  font-weight: 400;
+  color: #ea7b97 !important;
+  font-weight: 600;
 }
 
 .section__subtitle::before {
@@ -10,6 +10,6 @@
   left: -44px;
   width: 30px;
   height: 1px;
-  background: #d9981e;
-  color: #d9981e;
+  background: #ea7b97;
+  color: #ea7b97;
 }

@@ -7,7 +7,7 @@
 }
 
 .portfolio__item h6 {
-  color: #01d293;
+  color: #fce9ee;
   margin-bottom: 20px;
   background: transparent;
 }
@@ -31,15 +31,61 @@
   border-radius: 5px;
 }
 
+.portfolio__item:hover .portfolio__live {
+  margin-left: 0;
+  display: block;
+}
+/* ----button--- */
 .portfolio__live {
   margin-left: -100px;
   margin-top: 30px;
   display: none;
+  text-align: center;
 }
 
-.portfolio__item:hover .portfolio__live {
-  margin-left: 0;
-  display: block;
+.portfolio__live button {
+  width: 170px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  /* /color */
+  background-image: linear-gradient(
+    to right,
+    #ed6ea0,
+    #ec8c69,
+    #f7186a,
+    #fbb03b
+  );
+  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+.portfolio__live button:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.portfolio__live button:focus {
+  outline: none;
+}
+.portfolio__live button a {
+  font-size: 17px;
+  color: #ffff;
+  background-color: #0000;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 576px) {

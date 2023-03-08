@@ -2,46 +2,41 @@ const portfolio = [
   {
     id: "01",
     title: "To Do list React 버전",
-    img: "/images/2.JPG",
+    img: "/images/todoR.jpeg",
     category: "Site",
     keyword: ["Web"],
-    liveUrl: "#",
+    github: "#",
+    site: "#",
   },
 
   {
     id: "02",
-    title: "New Season 패션 겨울 홈페이지",
-    img: "/images/yuju.jpeg",
+    title: "Mardi ou Samdi 쇼핑홈페이지",
+    img: "/images/Mardi.jpeg",
     category: "Github",
     keyword: ["Web"],
-    liveUrl: "#",
+    github: "https://github.com/yujuann/E-commerce",
+    site: "https://github.com/yujuann/E-commerce",
   },
 
   {
     id: "03",
     title: "넷플릭스 클론 코딩",
-    img: "/images/2.JPG",
+    img: "/images/next.jpeg",
     category: "Github",
     keyword: ["Web"],
-    liveUrl: "#",
+    github: "#",
+    site: "#",
   },
 
   {
     id: "04",
     title: "Todo list Page JavaScript 버전 ",
-    img: "/images/2.JPG",
+    img: "/images/todoJ.jpeg",
     category: "Github",
     keyword: ["Web"],
-    liveUrl: "#",
-  },
-
-  {
-    id: "05",
-    title: "포토폴리오 페이지",
-    img: "/images/2.JPG",
-    category: "Github",
-    keyword: ["Web"],
-    liveUrl: "#",
+    github: "#",
+    site: "#",
   },
 ];
 

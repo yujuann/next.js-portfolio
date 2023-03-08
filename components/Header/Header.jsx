@@ -3,7 +3,7 @@ import React, { useRef, useEffect, useState } from "react";
 import { Container } from "reactstrap";
 import classes from "./header.module.css";
 import Link from "next/link";
-import Data from "../UI/Data";
+// import Data from "../UI/Data";
 
 const NAV__LINK = [
   {
@@ -60,7 +60,8 @@ const Header = () => {
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
             <h1>
-              <span>M</span>uhib
+              <span>Welcome</span> <br />
+              yuju Page
             </h1>
           </div>
 
@@ -81,7 +82,7 @@ const Header = () => {
                 <p className=" d-flex align-items-center gap-2 mb-0">
                   {/* <Data /> */}
                 </p>
-                <Data />
+                {/* <Data /> */}
               </div>
             </div>
           </div>
