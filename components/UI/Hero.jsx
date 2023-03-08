@@ -4,7 +4,7 @@ import SectionSubtitle from "./SectionSubtitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import Link from "next/link";
-import yujuImg from "../../public/images/2.JPG";
+import yujuImg from "../../public/images/happy.jpeg";
 import classes from "./../../styles/Hero.module.css";
 
 const Hero = () => {
@@ -46,7 +46,7 @@ const Hero = () => {
           {/* ========== hero img ============= */}
           <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
-              <Image alt="yuju-image" src={yujuImg} width="400" height="400" />
+              <Image alt="yuju-image" src={yujuImg} width="340" height="370" />
             </div>
           </Col>
         </Row>
