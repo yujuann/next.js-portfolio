@@ -12,7 +12,7 @@ const portfolio = [
   {
     id: "02",
     title: "Mardi ou Samdi 쇼핑홈페이지",
-    img: "/images/Mardi.jpeg",
+    img: "/images/mardi.jpeg",
     category: "Github",
     keyword: ["Web", "Github"],
     github: "https://github.com/yujuann/E-commerce",
