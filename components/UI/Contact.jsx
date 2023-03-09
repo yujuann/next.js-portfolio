@@ -49,7 +49,6 @@ const Contact = () => {
               </Link>
             </div>
           </Col>
-
           <Col lg="6" md="6">
             <Form />
           </Col>

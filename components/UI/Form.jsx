@@ -16,7 +16,6 @@ const Form = () => {
       <div className={`${classes.form__group}`}>
         <textarea type="text" rows={5} placeholder="Message" required />
       </div>
-
       <button className={`${classes.form__primary_button}`} type="submit">
         Send
       </button>

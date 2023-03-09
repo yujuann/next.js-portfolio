@@ -31,9 +31,7 @@ const Hero = () => {
               {/* =====hero btn 2====== */}
               <div className="mt-5">
                 <button className="secondary__btn">
-                  <Link href="https://linen-ginger-754.notion.site/9c930682b75e41d4bfb9e61dc7880f27">
-                    Hire Me
-                  </Link>
+                  <Link href="https://xoxoankim-96.tistory.com/">Hire Me</Link>
                 </button>
 
                 <button className="secondary__btn">
