@@ -6,13 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-deploy": "next build && next export"
   },
   "dependencies": {
     "@next/font": "13.1.6",
     "bootstrap": "^5.2.3",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
+    "firebase": "^9.17.2",
     "moment": "^2.29.4",
     "next": "13.1.6",
     "react": "18.2.0",
