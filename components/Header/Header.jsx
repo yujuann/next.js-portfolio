@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 
 import { Container } from "reactstrap";
-import classes from "./header.module.css";
+import classes from "./Header.module.css";
 import Link from "next/link";
 // import Data from "../UI/Data";
 
